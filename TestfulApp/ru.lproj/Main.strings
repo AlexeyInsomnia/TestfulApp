@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "fullName"; ObjectID = "3oY-Xy-Fda"; */
+"3oY-Xy-Fda.text" = "fullName";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "4kT-sg-EZE"; */
+"4kT-sg-EZE.title" = "Title";
+
+/* Class = "UILabel"; text = "message"; ObjectID = "MaD-i2-jvY"; */
+"MaD-i2-jvY.text" = "message";
+
+/* Class = "UILabel"; text = "Chats"; ObjectID = "Ty9-Q3-BGV"; */
+"Ty9-Q3-BGV.text" = "Chats";
+
+/* Class = "UILabel"; text = "11:11 PM"; ObjectID = "ex3-Ic-8dk"; */
+"ex3-Ic-8dk.text" = "11:11 PM";
+
+/* Class = "UILabel"; text = "+5 messages"; ObjectID = "gUf-EY-Q3p"; */
+"gUf-EY-Q3p.text" = "+5 messages";
