@@ -26,6 +26,8 @@
     
     [super viewDidLoad];
     
+    self.clientsArray = [NSMutableArray array];
+    
     self.tableView.estimatedRowHeight = 200;
     
     self.tableView.rowHeight = UITableViewAutomaticDimension;

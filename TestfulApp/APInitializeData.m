@@ -15,6 +15,9 @@
 {
     self = [super init];
     if (self) {
+        
+        self.clientsArray = [NSMutableArray array];
+        
         NSString* pathToDataPlist = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"plist"];
         
         NSArray* deafaultDataPlistArray = [NSArray arrayWithContentsOfFile:pathToDataPlist];
