@@ -7,8 +7,10 @@
 //
 
 #import "APFirstScreenViewController.h"
+#import "APChatTableViewController.h"
+#import "APTransitionAnimator.h"
 
-@interface APFirstScreenViewController ()
+@interface APFirstScreenViewController () <UIViewControllerTransitioningDelegate>
 
 @property (strong, nonatomic) NSMutableArray* actsArray;
 
@@ -21,7 +23,21 @@
     
     [self animationsOnStart];
     
-    // Do any additional setup after loading the view.
+    APChatTableViewController* chatTVC = [self.storyboard instantiateViewControllerWithIdentifier:@"APChatTableViewController"];
+    
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        chatTVC.transitioningDelegate = self;
+        
+        //chatTVC.modalPresentationStyle = UIModalPresentationCustom;
+        
+        [self presentViewController:chatTVC animated:YES completion:nil];
+        
+        
+    });
+
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -48,17 +64,33 @@
     
     self.animImage.animationImages = self.actsArray;
     self.animImage.animationDuration = 0.5f;
-    self.animImage.animationRepeatCount = 20;
+    self.animImage.animationRepeatCount = 1;
     [self.animImage startAnimating];
     
 }
 
 
+
+
+#pragma mark - UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning
+
+- (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented
+                                                                            presentingController:(UIViewController *)presenting
+                                                                                sourceController:(UIViewController *)source {
+    
+    APTransitionAnimator *animator = [[APTransitionAnimator alloc] init];
+  
+    return animator;
+}
+    
+
 /*
- - (BOOL)prefersStatusBarHidden {
+- (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
+    APTransitionAnimator *animator = [[APTransitionAnimator alloc] init];
+    return animator;
+}
  
- return YES;
- }
- */
+*/
+
 
 @end

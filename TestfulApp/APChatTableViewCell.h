@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "APClient.h"
 
 @interface APChatTableViewCell : UITableViewCell
 
@@ -15,5 +16,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *messageLabel;
 @property (weak, nonatomic) IBOutlet UILabel *unreadMessagesCountLabel;
 @property (weak, nonatomic) IBOutlet UILabel *sendingDateLabel;
+
+
+
 
 @end

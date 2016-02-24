@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA3BFC611C7DB48800E4C813 /* APTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3BFC601C7DB48800E4C813 /* APTransitionAnimator.m */; };
+		FA3BFC6A1C7E71D900E4C813 /* APInitializeData.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3BFC691C7E71D900E4C813 /* APInitializeData.m */; };
 		FAC43A231C78730200700EB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC43A221C78730200700EB4 /* main.m */; };
 		FAC43A261C78730200700EB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC43A251C78730200700EB4 /* AppDelegate.m */; };
 		FAC43A2C1C78730200700EB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC43A2A1C78730200700EB4 /* Main.storyboard */; };
@@ -30,7 +32,6 @@
 		FAC43A6F1C78733900700EB4 /* act6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC43A631C78733900700EB4 /* act6@3x.png */; };
 		FAC43A781C789CCA00700EB4 /* APChatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC43A771C789CCA00700EB4 /* APChatTableViewController.m */; };
 		FAC43A811C78BFB800700EB4 /* APChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC43A801C78BFB800700EB4 /* APChatTableViewCell.m */; };
-		FAC43A841C78F1D000700EB4 /* APViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC43A831C78F1D000700EB4 /* APViewController.m */; };
 		FAC43A871C78F27F00700EB4 /* APFirstScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC43A861C78F27F00700EB4 /* APFirstScreenViewController.m */; };
 		FAC43A891C79D03D00700EB4 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAC43A881C79D03D00700EB4 /* data.plist */; };
 		FAC43A8C1C79D65A00700EB4 /* APClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC43A8B1C79D65A00700EB4 /* APClient.m */; };
@@ -70,6 +71,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA3BFC5F1C7DB48800E4C813 /* APTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTransitionAnimator.h; sourceTree = "<group>"; };
+		FA3BFC601C7DB48800E4C813 /* APTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTransitionAnimator.m; sourceTree = "<group>"; };
+		FA3BFC681C7E71D900E4C813 /* APInitializeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APInitializeData.h; sourceTree = "<group>"; };
+		FA3BFC691C7E71D900E4C813 /* APInitializeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APInitializeData.m; sourceTree = "<group>"; };
 		FAC43A1E1C78730200700EB4 /* TestfulApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestfulApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC43A221C78730200700EB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAC43A241C78730200700EB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,8 +107,6 @@
 		FAC43A771C789CCA00700EB4 /* APChatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APChatTableViewController.m; sourceTree = "<group>"; };
 		FAC43A7F1C78BFB800700EB4 /* APChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APChatTableViewCell.h; sourceTree = "<group>"; };
 		FAC43A801C78BFB800700EB4 /* APChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APChatTableViewCell.m; sourceTree = "<group>"; };
-		FAC43A821C78F1D000700EB4 /* APViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APViewController.h; sourceTree = "<group>"; };
-		FAC43A831C78F1D000700EB4 /* APViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APViewController.m; sourceTree = "<group>"; };
 		FAC43A851C78F27F00700EB4 /* APFirstScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFirstScreenViewController.h; sourceTree = "<group>"; };
 		FAC43A861C78F27F00700EB4 /* APFirstScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APFirstScreenViewController.m; sourceTree = "<group>"; };
 		FAC43A881C79D03D00700EB4 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
@@ -174,6 +177,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA3BFC621C7DE87F00E4C813 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAC43A8A1C79D65A00700EB4 /* APClient.h */,
+				FAC43A8B1C79D65A00700EB4 /* APClient.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FA3BFC631C7DE88B00E4C813 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FAC43A7F1C78BFB800700EB4 /* APChatTableViewCell.h */,
+				FAC43A801C78BFB800700EB4 /* APChatTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		FA3BFC641C7DE8AC00E4C813 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAC43A851C78F27F00700EB4 /* APFirstScreenViewController.h */,
+				FAC43A861C78F27F00700EB4 /* APFirstScreenViewController.m */,
+				FAC43A761C789CCA00700EB4 /* APChatTableViewController.h */,
+				FAC43A771C789CCA00700EB4 /* APChatTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		FAC43A151C78730200700EB4 = {
 			isa = PBXGroup;
 			children = (
@@ -204,16 +236,13 @@
 				FAC43A701C78733F00700EB4 /* Images */,
 				FAC43A241C78730200700EB4 /* AppDelegate.h */,
 				FAC43A251C78730200700EB4 /* AppDelegate.m */,
-				FAC43A821C78F1D000700EB4 /* APViewController.h */,
-				FAC43A831C78F1D000700EB4 /* APViewController.m */,
-				FAC43A8A1C79D65A00700EB4 /* APClient.h */,
-				FAC43A8B1C79D65A00700EB4 /* APClient.m */,
-				FAC43A851C78F27F00700EB4 /* APFirstScreenViewController.h */,
-				FAC43A861C78F27F00700EB4 /* APFirstScreenViewController.m */,
-				FAC43A7F1C78BFB800700EB4 /* APChatTableViewCell.h */,
-				FAC43A801C78BFB800700EB4 /* APChatTableViewCell.m */,
-				FAC43A761C789CCA00700EB4 /* APChatTableViewController.h */,
-				FAC43A771C789CCA00700EB4 /* APChatTableViewController.m */,
+				FA3BFC681C7E71D900E4C813 /* APInitializeData.h */,
+				FA3BFC691C7E71D900E4C813 /* APInitializeData.m */,
+				FA3BFC5F1C7DB48800E4C813 /* APTransitionAnimator.h */,
+				FA3BFC601C7DB48800E4C813 /* APTransitionAnimator.m */,
+				FA3BFC621C7DE87F00E4C813 /* Models */,
+				FA3BFC631C7DE88B00E4C813 /* Cells */,
+				FA3BFC641C7DE8AC00E4C813 /* Controllers */,
 				FAC43A2A1C78730200700EB4 /* Main.storyboard */,
 				FAC43A2F1C78730200700EB4 /* LaunchScreen.storyboard */,
 				FAC43A321C78730200700EB4 /* Info.plist */,
@@ -467,6 +496,7 @@
 				FAC43AA81C79FA7300700EB4 /* UIProgressView+AFNetworking.m in Sources */,
 				FAC43A871C78F27F00700EB4 /* APFirstScreenViewController.m in Sources */,
 				FAC43AA91C79FA7300700EB4 /* UIRefreshControl+AFNetworking.m in Sources */,
+				FA3BFC611C7DB48800E4C813 /* APTransitionAnimator.m in Sources */,
 				FAC43AA71C79FA7300700EB4 /* UIImageView+AFNetworking.m in Sources */,
 				FAC43AAA1C79FA7300700EB4 /* UIWebView+AFNetworking.m in Sources */,
 				FAC43A261C78730200700EB4 /* AppDelegate.m in Sources */,
@@ -477,12 +507,12 @@
 				FAC43AA51C79FA7300700EB4 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				FAC43A231C78730200700EB4 /* main.m in Sources */,
 				FAC43ABA1C79FB9400700EB4 /* AFNetworkReachabilityManager.m in Sources */,
+				FA3BFC6A1C7E71D900E4C813 /* APInitializeData.m in Sources */,
 				FAC43AA41C79FA7300700EB4 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				FAC43A781C789CCA00700EB4 /* APChatTableViewController.m in Sources */,
 				FAC43ABE1C79FB9400700EB4 /* AFURLSessionManager.m in Sources */,
 				FAC43A8C1C79D65A00700EB4 /* APClient.m in Sources */,
 				FAC43A811C78BFB800700EB4 /* APChatTableViewCell.m in Sources */,
-				FAC43A841C78F1D000700EB4 /* APViewController.m in Sources */,
 				FAC43AB91C79FB9400700EB4 /* AFHTTPSessionManager.m in Sources */,
 				FAC43ABD1C79FB9400700EB4 /* AFURLResponseSerialization.m in Sources */,
 				FAC43AA21C79FA7300700EB4 /* AFAutoPurgingImageCache.m in Sources */,
@@ -723,6 +753,7 @@
 				FAC43A4D1C78730200700EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAC43A4E1C78730200700EB4 /* Build configuration list for PBXNativeTarget "TestfulAppTests" */ = {
 			isa = XCConfigurationList;
@@ -731,6 +762,7 @@
 				FAC43A501C78730200700EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAC43A511C78730200700EB4 /* Build configuration list for PBXNativeTarget "TestfulAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -739,6 +771,7 @@
 				FAC43A531C78730200700EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
